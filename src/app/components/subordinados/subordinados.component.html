@@ -1,0 +1,23 @@
+<div class="container">
+    <h1>Subordinados</h1>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Oficio</th>
+                <th scope="col">Salario</th>
+                <th scope="col">Director</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let sub of subordinados">
+                <td>{{sub.idEmpleado}}</td>
+                <td>{{sub.apellido}}</td>
+                <td>{{sub.oficio}}</td>
+                <td>{{sub.salario}}</td>
+                <td>{{sub.director}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
