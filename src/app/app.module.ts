@@ -10,6 +10,7 @@ import { PerfilComponent } from './components/perfil/perfil.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { ServiceAuth } from './services/service.auth';
+import { MenuLoginComponent } from './components/menu-login/menu-login.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ServiceAuth } from './services/service.auth';
     MenuComponent,
     HomeComponent,
     SubordinadosComponent,
-    PerfilComponent
+    PerfilComponent,
+    MenuLoginComponent
   ],
   imports: [
     BrowserModule,

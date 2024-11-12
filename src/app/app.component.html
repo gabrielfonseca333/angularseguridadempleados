@@ -1,4 +1,13 @@
-<div>
-  <app-menu></app-menu>
+<div >
+  @if(mostrarMenuLogin==false) {
+    
+    <app-menu-login></app-menu-login>
+    
+  }
+  @else{
+    <app-menu></app-menu>
+  }
+
   <router-outlet></router-outlet>
+ 
 </div>
